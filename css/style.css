@@ -1,0 +1,48 @@
+bannerBgImage{
+    height: 100vh;
+    background: url("images/WhatsApp\ Image\ 2023-07-23\ at\ 4.59.51\ PM.jpeg");
+    background-size: cover;
+    position: relative; 
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.bannerTitle{
+    font-size: 2rem;
+}
+.bannerDes{
+    font-size: 2rem;
+}
+#Skills{
+    background-color: lightcyan;
+}
+
+.card {
+    cursor: pointer;
+    
+    
+}
+.card:hover{
+
+    background-color:deeppink;
+    border: 3px solid yellowgreen;
+}
+.bIcon {
+    width:100%;
+    text-align:center;
+    font-size: 40px; ;
+}
+.img-fluid:hover{
+    border: 3px solid black;
+}
+
+.card-img-top{
+    height: 50vh;
+}
